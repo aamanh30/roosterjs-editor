@@ -1,0 +1,8 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "strictNullChecks": false,
+    "types": ["vitest/globals", "jsdom"]
+  },
+  "exclude": ["**/*.json", "**/*.stories.ts", "**/*.stories.tsx"]
+}
